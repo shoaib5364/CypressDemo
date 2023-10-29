@@ -1,0 +1,6 @@
+{
+    "PositiveEmail":"testuser4@tmailcloud.net",
+    "PositivePassword":"Shoaib123",
+    "NegativeEmail":"testuser4@tmailcloud.ne",
+    "NegativePassword":"shobi321"
+}
