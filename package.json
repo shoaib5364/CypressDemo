@@ -2,7 +2,20 @@
   "devDependencies": {
     "cypress": "^12.1.0"
   },
+
+  "cypress-cucumber-preprocessor": {
+
+  },
+  "scripts": {
+    "cypresswindow": "cypress open",
+    "headedchrome": "cypress run --spec cypress\\e2e\\BDD\\login.feature --headed --browser chrome",
+    "headedelectron": "cypress run --spec cypress\\e2e\\BDD\\login.feature --headed --browser electron",
+    "featurefiles": "cypress run --spec **/*.feature",
+    "mochawesome": "cypress run --spec cypress\\e2e\\BDD\\login.feature --headed --browser chrome --reporter mochawesome"
+  },
   "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.0.1",
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "cypress-mochawesome-reporter": "^3.6.1"
   }
 }

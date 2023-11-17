@@ -7,12 +7,12 @@ import Products from "../POM/Products"
 
 describe(' Internal User ', function () {
 
-    before(() => {
-        cy.clearAllSessionStorage()
-        cy.clearAllLocalStorage()
-        cy.clearAllCookies()
-        cy.clearCookies()
-    })
+    // before(() => {
+    //     cy.clearAllSessionStorage()
+    //     cy.clearAllLocalStorage()
+    //     cy.clearAllCookies()
+    //     cy.clearCookies()
+    // })
 
     it('CASE 1 Login - Negative', function () {
 
